@@ -2,8 +2,6 @@
 
 library(ggplot2)
 library(dplyr)
-
-
 map <- map_data("world") %>% 
   filter(region != "USSR")
 
